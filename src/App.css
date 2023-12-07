@@ -1,0 +1,109 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.buttonWrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.hr{
+  width: 100%;
+  margin: 30px 0px
+}
+
+.button{
+  width: 100px;
+  height: 60px;
+}
+
+.formFlex{
+  display: flex;
+  flex-direction: column;
+}
+
+.count-2ButtonBox{
+  width: 200px;
+  height: 100px;
+  background-color: #fff;
+}
+
+.count-2ButtonBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.coloredBoxes {
+  max-width: 230px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 10px;
+}
+
+.coloredBox {
+  width: 50px;
+  height: 50px;
+}
+
+.formWrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.boxWillChangeColor{
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.boxAndButton{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.boxOfClodedBoxes{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.boxOriginal{
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: 20px;
+  background-color: bisque;
+}
+
+.boxWhichGoesToCorner{
+  width: 200px;
+  height: 100px;
+  background-color: yellowgreen;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+.inputt{
+  width: 100%;
+  padding: 5px 15px;
+  margin: 5px 0px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(206, 201, 201);
+}
+
+.lastButton{
+  margin-bottom: 20px;
+}
